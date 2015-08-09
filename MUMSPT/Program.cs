@@ -61,6 +61,11 @@ namespace MUMSPT
             TestSet8.TestSet8Test.isVanilla();
             TestSet8.TestSet8Test.isTrivalent();
             */
+
+
+            TestSet13.TestSet13Test.countRepresentations();
+            TestSet13.TestSet13Test.isSequentiallyBounded();
+            TestSet13.TestSet13Test.isMinMaxDisjoint();
             Console.ReadLine();
         }
 

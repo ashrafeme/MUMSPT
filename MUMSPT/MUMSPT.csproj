@@ -47,6 +47,8 @@
     <Compile Include="PreTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestSet13\TestSet13.cs" />
+    <Compile Include="TestSet13\TestSet13Test.cs" />
     <Compile Include="TestSet1\TestSet1.cs" />
     <Compile Include="TestSet1\TestSet1Test.cs" />
     <Compile Include="TestSet2\TestSet2.cs" />
