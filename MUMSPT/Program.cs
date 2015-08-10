@@ -71,15 +71,22 @@ namespace MUMSPT
             TestSet10.TestSet10Test.sameNumberOfFactors();
             TestSet10.TestSet10Test.hasSingleMaximum();
             */
-
+            /*
             TestSet11.TestSet11Test.isMartian();
             TestSet11.TestSet11Test.closestFibonacci();
             TestSet11.TestSet11Test.isPrimeHappy();
+            */
             /*
             TestSet13.TestSet13Test.countRepresentations();
             TestSet13.TestSet13Test.isSequentiallyBounded();
             TestSet13.TestSet13Test.isMinMaxDisjoint();
+
+            
             */
+
+
+            TestSet12.TestSet12Test.smallest();
+            TestSet12.TestSet12Test.clusterCompression();
             Console.ReadLine();
         }
     }
