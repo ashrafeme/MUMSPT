@@ -61,15 +61,24 @@ namespace MUMSPT
             TestSet8.TestSet8Test.isVanilla();
             TestSet8.TestSet8Test.isTrivalent();
             */
+            /*
+            TestSet9.TestSet9Test.equivalentArrays();
+            TestSet9.TestSet9Test.isStepped();
+            TestSet9.TestSet9Test.isRapidlyIncreasing();
+            */
 
+            /*
+            TestSet10.TestSet10Test.sameNumberOfFactors();
+            TestSet10.TestSet10Test.hasSingleMaximum();
+            */
+
+            TestSet11.TestSet11Test.isMartian();
+            TestSet11.TestSet11Test.closestFibonacci();
 
             TestSet13.TestSet13Test.countRepresentations();
             TestSet13.TestSet13Test.isSequentiallyBounded();
             TestSet13.TestSet13Test.isMinMaxDisjoint();
             Console.ReadLine();
         }
-
-
-
     }
 }
