@@ -84,10 +84,21 @@ namespace MUMSPT
             
             */
 
-
+            /*
             TestSet12.TestSet12Test.smallest();
             TestSet12.TestSet12Test.clusterCompression();
+            TestSet12.TestSet12Test.isRailroadTie();
+            
+            */
+
+            TestSet14.TestSet14Test.Qone();
+            TestSet14.TestSet14Test.QTwo();
+            TestSet14.TestSet14Test.QThree();
+
+
+
             Console.ReadLine();
         }
     }
 }
+

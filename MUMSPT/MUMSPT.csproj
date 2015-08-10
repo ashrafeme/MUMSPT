@@ -55,6 +55,8 @@
     <Compile Include="TestSet12\TestSet12Test.cs" />
     <Compile Include="TestSet13\TestSet13.cs" />
     <Compile Include="TestSet13\TestSet13Test.cs" />
+    <Compile Include="TestSet14\TestSet14.cs" />
+    <Compile Include="TestSet14\TestSet14Test.cs" />
     <Compile Include="TestSet1\TestSet1.cs" />
     <Compile Include="TestSet1\TestSet1Test.cs" />
     <Compile Include="TestSet2\TestSet2.cs" />
