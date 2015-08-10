@@ -74,10 +74,12 @@ namespace MUMSPT
 
             TestSet11.TestSet11Test.isMartian();
             TestSet11.TestSet11Test.closestFibonacci();
-
+            TestSet11.TestSet11Test.isPrimeHappy();
+            /*
             TestSet13.TestSet13Test.countRepresentations();
             TestSet13.TestSet13Test.isSequentiallyBounded();
             TestSet13.TestSet13Test.isMinMaxDisjoint();
+            */
             Console.ReadLine();
         }
     }

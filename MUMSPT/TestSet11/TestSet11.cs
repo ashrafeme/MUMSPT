@@ -37,6 +37,22 @@ namespace MUMSPT.TestSet11
             return isMartian;
         }
 
+
+        /// <summary>
+        /// The Fibonacci sequence of numbers is 1, 1, 2, 3, 5, 8, 13, 21, 34, ... 
+        /// The first and second numbers are 1 and after that ni = ni-2 + ni-1, 
+        /// e.g., 34 = 13 + 21. A number in the sequence is called a Fibonacci number. 
+        /// Write a method with signature int closestFibonacci(int n) which returns the largest 
+        /// Fibonacci number that is less than or equal to its argument. For example, 
+        /// closestFibonacci(12) returns 8 because 8 is the largest Fibonacci number less 
+        /// than 12 and closestFibonacci(33) returns 21 because 21 is the largest Fibonacci 
+        /// number that is &lt;= 33. closestFibonacci(34) should return 34. If the argument 
+        /// is less than 1 return 0. Your solution must not use recursion because unless you 
+        /// cache the Fibonacci numbers as you find them, the recursive solution recomputes 
+        /// the same Fibonacci number many times.
+        /// </summary>
+        /// <param name="n"></param>
+        /// <returns></returns>
         public static int closestFibonacci(int n)
         {
             int closestFibonacci = 0;
@@ -56,6 +72,34 @@ namespace MUMSPT.TestSet11
                 } while (c <= n);
             }
             return closestFibonacci;
+        }
+
+        /// <summary>
+        /// A number n is called prime-happy if there is at least one prime 
+        /// less than n and the sum of all primes less than n is evenly divisible by n.
+        /// </summary>
+        /// <param name="n"></param>
+        /// <returns></returns>
+        public static int isPrimeHappy(int n)
+        {
+            int isPrimeHappy = 1;
+            int count = 0, sum = 0;
+
+            for (int i = 0; i < n; i++)
+            {
+                if (Helper.isPrime(i))
+                {
+                    count++;
+                    sum += i;
+                }
+            }
+
+            if (count < 1) isPrimeHappy = 0;
+            if (sum % n != 0) isPrimeHappy = 0;
+
+            return isPrimeHappy;
+
+
         }
 
     }

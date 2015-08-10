@@ -61,5 +61,28 @@ namespace MUMSPT.TestSet11
             Console.WriteLine("========================");
         }
 
+        public static void isPrimeHappy()
+        {
+            Console.WriteLine("test for isPrimeHappy ");
+            Console.WriteLine("========================");
+
+            Console.Write("isPrimeHappy of   5 is"); Console.WriteLine(" = {0}"
+              , TestSet11.isPrimeHappy(5));
+
+            Console.Write("isPrimeHappy of   25 is"); Console.WriteLine(" = {0}"
+              , TestSet11.isPrimeHappy(25));
+
+            Console.Write("isPrimeHappy of   32 is"); Console.WriteLine(" = {0}"
+               , TestSet11.isPrimeHappy(32));
+
+            Console.Write("isPrimeHappy of   8 is"); Console.WriteLine(" = {0}"
+               , TestSet11.isPrimeHappy(8));
+
+            Console.Write("isPrimeHappy of   2 is"); Console.WriteLine(" = {0}"
+               , TestSet11.isPrimeHappy(2));
+
+            Console.WriteLine("========================");
+        }
+
     }
 }
