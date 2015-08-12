@@ -91,10 +91,15 @@ namespace MUMSPT
             
             */
 
+            /*
             TestSet14.TestSet14Test.Qone();
             TestSet14.TestSet14Test.QTwo();
             TestSet14.TestSet14Test.QThree();
+            */
 
+            TestSet16.TestSet16Test.checkConcatenatedSum();
+            TestSet16.TestSet16Test.largestAdjacentSum();
+            TestSet16.TestSet16Test.isSequencedArray();
 
 
             Console.ReadLine();
