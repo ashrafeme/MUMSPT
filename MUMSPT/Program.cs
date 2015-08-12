@@ -96,8 +96,17 @@ namespace MUMSPT
             TestSet14.TestSet14Test.isOddHeavy();
             */
 
+            /*
             TestSet15.TestSet15Test.getExponent();
+            TestSet15.TestSet15Test.is121Array();
+            TestSet15.TestSet15Test.filterArray();
+            */
 
+            /*
+            TestSet16.TestSet16Test.checkConcatenatedSum();
+            TestSet16.TestSet16Test.largestAdjacentSum();
+            TestSet16.TestSet16Test.isSequencedArray();
+            */
 
             Console.ReadLine();
         }
