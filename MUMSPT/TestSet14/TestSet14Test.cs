@@ -8,7 +8,7 @@ namespace MUMSPT.TestSet14
 {
     public static class TestSet14Test
     {
-        public static void Qone()
+        public static void fullnessQuotient()
         {
             Console.WriteLine("test for fullnessQuotient ");
             Console.WriteLine("========================");
@@ -32,7 +32,7 @@ namespace MUMSPT.TestSet14
             Console.WriteLine("========================");
         }
 
-        public static void QTwo()
+        public static void isPacked()
         {
             Console.WriteLine("test for isPacked ");
             Console.WriteLine("========================");
@@ -88,7 +88,7 @@ namespace MUMSPT.TestSet14
 
 
 
-        public static void QThree()
+        public static void isOddHeavy()
         {
             Console.WriteLine("test for isOddHeavy ");
             Console.WriteLine("========================");

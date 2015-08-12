@@ -90,11 +90,13 @@ namespace MUMSPT
             TestSet12.TestSet12Test.isRailroadTie();
             
             */
+            /*
+            TestSet14.TestSet14Test.fullnessQuotient();
+            TestSet14.TestSet14Test.isPacked();
+            TestSet14.TestSet14Test.isOddHeavy();
+            */
 
-            TestSet14.TestSet14Test.Qone();
-            TestSet14.TestSet14Test.QTwo();
-            TestSet14.TestSet14Test.QThree();
-
+            TestSet15.TestSet15Test.getExponent();
 
 
             Console.ReadLine();
