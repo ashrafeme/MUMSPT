@@ -108,6 +108,9 @@ namespace MUMSPT
             TestSet16.TestSet16Test.isSequencedArray();
             */
 
+            TestSet17.TestSet17Test.largestPrimeFactor();
+            TestSet17.TestSet17Test.encodeNumber();
+
             Console.ReadLine();
         }
     }
