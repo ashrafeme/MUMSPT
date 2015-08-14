@@ -73,5 +73,16 @@ namespace MUMSPT
             }
             return factors;
         }
+
+
+        /// <summary>
+        /// get if the number is Integer or not
+        /// </summary>
+        /// <param name="n"></param>
+        /// <returns></returns>
+        public static bool IsWholeNumber(double n)
+        {
+            return (n % 1 == 0);
+        }
     }
 }

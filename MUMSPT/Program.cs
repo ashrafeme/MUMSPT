@@ -108,8 +108,21 @@ namespace MUMSPT
             TestSet16.TestSet16Test.isSequencedArray();
             */
 
+
+            /*
             TestSet17.TestSet17Test.largestPrimeFactor();
             TestSet17.TestSet17Test.encodeNumber();
+            TestSet17.TestSet17Test.matchPattern();
+
+            */
+
+            /*
+            TestSet18.TestSet18Test.doIntegerBasedRounding();
+            TestSet18.TestSet18Test.isCubePowerful();
+            TestSet18.TestSet18Test.decodeArray();
+            */
+
+            TestSet19.TestSet19Test.isZeroPlentiful();
 
             Console.ReadLine();
         }
