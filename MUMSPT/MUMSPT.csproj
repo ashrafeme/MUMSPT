@@ -70,6 +70,8 @@
     <Compile Include="TestSet1\TestSet1Test.cs" />
     <Compile Include="TestSet20\TestSet20.cs" />
     <Compile Include="TestSet20\TestSet20Test.cs" />
+    <Compile Include="TestSet21\TestSet21.cs" />
+    <Compile Include="TestSet21\TestSet21Test.cs" />
     <Compile Include="TestSet2\TestSet2.cs" />
     <Compile Include="TestSet2\TestSet2Test.cs" />
     <Compile Include="TestSet3\TestSet3.cs" />
