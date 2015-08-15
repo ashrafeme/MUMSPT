@@ -122,7 +122,19 @@ namespace MUMSPT
             TestSet18.TestSet18Test.decodeArray();
             */
 
+            /*
             TestSet19.TestSet19Test.isZeroPlentiful();
+            TestSet19.TestSet19Test.isDigitIncreasing();
+            TestSet19.TestSet19Test.decodeArray();
+            */
+
+            /*
+            TestSet20.TestSet20Test.isOnionArray();
+            TestSet20.TestSet20Test.isPrimeHappy();
+            TestSet20.TestSet20Test.encodeArray();
+            */
+
+
 
             Console.ReadLine();
         }
