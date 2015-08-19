@@ -134,8 +134,13 @@ namespace MUMSPT
             TestSet20.TestSet20Test.encodeArray();
             */
 
+
+
+            /*
             TestSet21.TestSet21Test.isSystematicallyIncreasing();
             TestSet21.TestSet21Test.isFactorialPrime();
+            TestSet21.TestSet21Test.largestDifferenceOfEvens();
+            */
 
             Console.ReadLine();
         }

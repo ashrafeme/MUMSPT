@@ -66,5 +66,30 @@ namespace MUMSPT.TestSet21
 
             Console.WriteLine("========================");
         }
+
+
+        public static void largestDifferenceOfEvens()
+        {
+            Console.WriteLine("test for largestDifferenceOfEvens ");
+            Console.WriteLine("========================");
+
+            Console.Write("largestDifferenceOfEvens of  {-2, 3, 4, 9} is"); Console.WriteLine(" = {0}"
+             , TestSet21.largestDifferenceOfEvens(new int[] { -2, 3, 4, 9 }));
+
+            Console.Write("largestDifferenceOfEvens of  {1, 3, 5, 9} is"); Console.WriteLine(" = {0}"
+             , TestSet21.largestDifferenceOfEvens(new int[] { 1, 3, 5, 9 }));
+
+            Console.Write("largestDifferenceOfEvens of  {1, 18, 5, 7, 33} is"); Console.WriteLine(" = {0}"
+             , TestSet21.largestDifferenceOfEvens(new int[] { 1, 18, 5, 7, 33 }));
+
+            Console.Write("largestDifferenceOfEvens of  {2, 2, 2, 2} is"); Console.WriteLine(" = {0}"
+             , TestSet21.largestDifferenceOfEvens(new int[] { 2, 2, 2, 2 }));
+
+            Console.Write("largestDifferenceOfEvens of  {1, 2, 1, 2, 1, 4, 1, 6, 4} is"); Console.WriteLine(" = {0}"
+             , TestSet21.largestDifferenceOfEvens(new int[] { 1, 2, 1, 2, 1, 4, 1, 6, 4 }));
+
+
+            Console.WriteLine("========================");
+        }
     }
 }
