@@ -142,6 +142,17 @@ namespace MUMSPT
             TestSet21.TestSet21Test.largestDifferenceOfEvens();
             */
 
+            /*
+            TestSet22.TestSet22Test.isHodder();
+            TestSet22.TestSet22Test.areAnagrams();
+            TestSet22.TestSet22Test.closestFibonacci();
+            */
+
+            /*
+            TestSet23.TestSet23Test.vesuvian();
+            TestSet23.TestSet23Test.isOneBalanced();
+            TestSet23.TestSet23Test.isFibonacci();
+            */
             Console.ReadLine();
         }
     }

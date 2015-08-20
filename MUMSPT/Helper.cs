@@ -42,6 +42,18 @@ namespace MUMSPT
             return isExist;
         }
 
+        public static int isExistInArray(char[] b, char element)
+        {
+            int isExist = -1;
+
+            for (int i = 0; i < b.Length && isExist == -1; i++)
+            {
+                if (b[i] == element)
+                    isExist = i;
+            }
+            return isExist;
+        }
+
 
         /// <summary>
         ///  A perfect square is an integer whose square root is also an integer,
