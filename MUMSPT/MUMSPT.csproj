@@ -78,6 +78,10 @@
     <Compile Include="TestSet23\TestSet23Test.cs" />
     <Compile Include="TestSet24\TestSet24.cs" />
     <Compile Include="TestSet24\TestSet24Test.cs" />
+    <Compile Include="TestSet25\TestSet25.cs" />
+    <Compile Include="TestSet25\TestSet25Test.cs" />
+    <Compile Include="TestSet26\TestSet26.cs" />
+    <Compile Include="TestSet26\TestSet26Test.cs" />
     <Compile Include="TestSet2\TestSet2.cs" />
     <Compile Include="TestSet2\TestSet2Test.cs" />
     <Compile Include="TestSet3\TestSet3.cs" />

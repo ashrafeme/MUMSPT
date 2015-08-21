@@ -160,7 +160,17 @@ namespace MUMSPT
             TestSet24.TestSet24Test.is235Array();
             */
 
+            /*
+            TestSet25.TestSet25Test.computeHMS();
+            TestSet25.TestSet25Test.isMartian();
+            TestSet25.TestSet25Test.isPairedN();
+            */
 
+            /*
+            TestSet26.TestSet26Test.isNPrimeable();
+            TestSet26.TestSet26Test.pairwiseSum();
+            TestSet26.TestSet26Test.is121Array();
+            */
             Console.ReadLine();
         }
     }
