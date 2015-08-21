@@ -153,6 +153,14 @@ namespace MUMSPT
             TestSet23.TestSet23Test.isOneBalanced();
             TestSet23.TestSet23Test.isFibonacci();
             */
+
+            /*
+            TestSet24.TestSet24Test.isTriangular();
+            TestSet24.TestSet24Test.isMercurial();
+            TestSet24.TestSet24Test.is235Array();
+            */
+
+
             Console.ReadLine();
         }
     }

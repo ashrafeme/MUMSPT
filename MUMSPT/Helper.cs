@@ -96,5 +96,10 @@ namespace MUMSPT
         {
             return (n % 1 == 0);
         }
+
+        public static bool IsdivisibleBy(int number,int by)
+        {
+            return (number % by == 0);
+        }
     }
 }
