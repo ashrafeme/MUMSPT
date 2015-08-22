@@ -183,7 +183,7 @@ namespace MUMSPT
             TestSet28.TestSet28Test.hasNValues();
             TestSet28.TestSet28Test.sameNumberOfFactors();
             */
-
+            TestSet29.TestSet29Test.eval();
             Console.ReadLine();
         }
     }
