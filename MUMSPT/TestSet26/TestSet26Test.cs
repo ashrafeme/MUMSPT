@@ -29,7 +29,7 @@ namespace MUMSPT.TestSet26
               , TestSet26.isNPrimeable(new int[] { }, 2));
 
             Console.WriteLine("========================");
-            //TestSet25.TestSet25Test.isMartian();
+            
         }
 
         public static void pairwiseSum()

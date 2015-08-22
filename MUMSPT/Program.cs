@@ -171,6 +171,19 @@ namespace MUMSPT
             TestSet26.TestSet26Test.pairwiseSum();
             TestSet26.TestSet26Test.is121Array();
             */
+
+            /*
+            TestSet27.TestSet27Test.isSquare();
+            TestSet27.TestSet27Test.isComplete();
+            TestSet27.TestSet27Test.loopSum();
+            */
+
+            /*
+            TestSet28.TestSet28Test.allValuesTheSame();
+            TestSet28.TestSet28Test.hasNValues();
+            TestSet28.TestSet28Test.sameNumberOfFactors();
+            */
+
             Console.ReadLine();
         }
     }

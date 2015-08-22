@@ -171,7 +171,7 @@ namespace MUMSPT.TestSet25
 
 
             Console.WriteLine("========================");
-            //TestSet25.TestSet25Test.isMartian();
+            
         }
 
         public static void isPairedN()
@@ -204,7 +204,7 @@ namespace MUMSPT.TestSet25
              , TestSet25.isPairedN(new int[] { }, 0));
 
             Console.WriteLine("========================");
-            //TestSet25.TestSet25Test.isMartian();
+            
         }
     }
 }
