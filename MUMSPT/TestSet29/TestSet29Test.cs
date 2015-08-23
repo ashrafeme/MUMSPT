@@ -40,5 +40,159 @@ namespace MUMSPT.TestSet29
             Console.WriteLine("========================");
 
         }
+
+
+        public static void isAllPossibilities()
+        {
+            Console.WriteLine("test for isAllPossibilities ");
+            Console.WriteLine("========================");
+
+            Console.Write("isAllPossibilities of   {1, 2, 0, 3}   is"); Console.WriteLine(" = {0}"
+              , TestSet29.isAllPossibilities(new int[] { 1, 2, 0, 3 }));
+
+            Console.Write("isAllPossibilities of   {3, 2, 1, 0}   is"); Console.WriteLine(" = {0}"
+                          , TestSet29.isAllPossibilities(new int[] { 3, 2, 1, 0 }));
+
+            Console.Write("isAllPossibilities of   {1, 2, 4, 3}   is"); Console.WriteLine(" = {0}"
+                          , TestSet29.isAllPossibilities(new int[] { 1, 2, 4, 3 }));
+
+            Console.Write("isAllPossibilities of   {0, 2, 3}   is"); Console.WriteLine(" = {0}"
+                         , TestSet29.isAllPossibilities(new int[] { 0, 2, 3 }));
+
+
+            Console.Write("isAllPossibilities of   {0}   is"); Console.WriteLine(" = {0}"
+                         , TestSet29.isAllPossibilities(new int[] { 0 }));
+
+            Console.Write("isAllPossibilities of   {}   is"); Console.WriteLine(" = {0}"
+                        , TestSet29.isAllPossibilities(new int[] {  }));
+
+            Console.WriteLine("========================");
+
+        }
+
+        public static void isLayered()
+        {
+            Console.WriteLine("test for isLayered ");
+            Console.WriteLine("========================");
+
+            Console.Write("isLayered of    {1, 1, 2, 2, 2, 3, 3}    is"); Console.WriteLine(" = {0}"
+              , TestSet29.isLayered(new int[] { 1, 1, 2, 2, 2, 3, 3 } ));
+
+            Console.Write("isLayered of    {3, 3, 3, 3, 3, 3, 3}    is"); Console.WriteLine(" = {0}"
+              , TestSet29.isLayered(new int[] { 3, 3, 3, 3, 3, 3, 3 }));
+
+            Console.Write("isLayered of    {3, 3, 1, 1, 1, 2, 2}     is"); Console.WriteLine(" = {0}"
+             , TestSet29.isLayered(new int[] { 3, 3, 1, 1, 1, 2, 2 }));
+
+            Console.Write("isLayered of    {1, 2, 2, 2, 3, 3}     is"); Console.WriteLine(" = {0}"
+             , TestSet29.isLayered(new int[] { 1, 2, 2, 2, 3, 3 }));
+
+            Console.Write("isLayered of    {2, 2, 2, 3, 3, 1, 1}     is"); Console.WriteLine(" = {0}"
+            , TestSet29.isLayered(new int[] { 2, 2, 2, 3, 3, 1, 1 }));
+
+            Console.Write("isLayered of    {2}     is"); Console.WriteLine(" = {0}"
+           , TestSet29.isLayered(new int[] { 2 }));
+
+            Console.Write("isLayered of    {}     is"); Console.WriteLine(" = {0}"
+          , TestSet29.isLayered(new int[] {  }));
+
+            Console.WriteLine("========================");
+
+        }
+
+        public static void updateMileagecounter()
+        {
+            Console.WriteLine("test for updateMileagecounter ");
+            Console.WriteLine("========================");
+
+            string ss = "";
+
+            ss = "{";
+            var output = TestSet29.updateMileagecounter(new int[] { 8, 9, 9, 5, 0 }, 1);
+            if (output != null)
+            {
+                for (int i = 0; i < output.Length; i++)
+                {
+                    ss += output[i];
+                    if (i < output.Length - 1) ss += ",";
+
+                }
+                ss += "}";
+            }
+            else
+            {
+                ss = "NULL";
+            }
+            Console.Write("updateMileagecounter of    {8, 9, 9, 5, 0} and 1   is"); Console.WriteLine(" = {0}"
+             , ss);
+
+
+            /********************************************************/
+            //
+            ss = "{";
+            output = TestSet29.updateMileagecounter(new int[] { 8, 9, 9, 5, 0 },2);
+            if (output != null)
+            {
+                for (int i = 0; i < output.Length; i++)
+                {
+                    ss += output[i];
+                    if (i < output.Length - 1) ss += ",";
+
+                }
+                ss += "}";
+            }
+            else
+            {
+                ss = "NULL";
+            }
+            Console.Write("updateMileagecounter of  {8, 9, 9, 5, 0} and 2  is"); Console.WriteLine(" = {0}"
+             , ss);
+
+            /********************************************************/
+            ss = "{";
+            output = TestSet29.updateMileagecounter(new int[] { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 }, 1);
+            if (output != null)
+            {
+                for (int i = 0; i < output.Length; i++)
+                {
+                    ss += output[i];
+                    if (i < output.Length - 1) ss += ",";
+
+                }
+                ss += "}";
+            }
+            else
+            {
+                ss = "NULL";
+            }
+            Console.Write("updateMileagecounter of  {9, 9, 9, 9, 9, 9, 9, 9, 9, 9} and 1  is"); Console.WriteLine(" = {0}"
+             , ss);
+
+            /********************************************************/
+
+            ss = "{";
+            output = TestSet29.updateMileagecounter(new int[] { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 }, 13);
+            if (output != null)
+            {
+                for (int i = 0; i < output.Length; i++)
+                {
+                    ss += output[i];
+                    if (i < output.Length - 1) ss += ",";
+
+                }
+                ss += "}";
+            }
+            else
+            {
+                ss = "NULL";
+            }
+            Console.Write("updateMileagecounter of  {9, 9, 9, 9, 9, 9, 9, 9, 9, 9} and 13  is"); Console.WriteLine(" = {0}"
+             , ss);
+
+            /********************************************************/
+
+            Console.WriteLine("========================");
+
+        }
     }
 }

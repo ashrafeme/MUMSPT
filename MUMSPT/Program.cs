@@ -184,6 +184,10 @@ namespace MUMSPT
             TestSet28.TestSet28Test.sameNumberOfFactors();
             */
             TestSet29.TestSet29Test.eval();
+            TestSet29.TestSet29Test.isAllPossibilities();
+            TestSet29.TestSet29Test.isLayered();
+            TestSet29.TestSet29Test.updateMileagecounter();
+
             Console.ReadLine();
         }
     }
