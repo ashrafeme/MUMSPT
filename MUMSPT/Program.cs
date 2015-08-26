@@ -190,6 +190,19 @@ namespace MUMSPT
             TestSet29.TestSet29Test.updateMileagecounter();
             TestSet29.TestSet29Test.isHollow();
             */
+            /*
+            TestSet30.TestSet30Test.isMeera();
+            TestSet30.TestSet30Test.isBean();
+            TestSet30.TestSet30Test.fill();
+            */
+
+            /*
+            TestSet30.TestSet30Test.sumIsPower();
+            TestSet30.TestSet30Test.isHollow();
+            
+
+            */
+            TestSet30.TestSet30Test.isBean913();
 
             Console.ReadLine();
         }
