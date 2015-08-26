@@ -194,5 +194,39 @@ namespace MUMSPT.TestSet29
             Console.WriteLine("========================");
 
         }
+
+        public static void isHollow()
+        {
+            Console.WriteLine("test for isHollow ");
+            Console.WriteLine("========================");
+            /*
+            Console.Write("isHollow of    {1,2,0,0,0,3,4}    is"); Console.WriteLine(" = {0}"
+              , TestSet29.isHollow(new int[] { 1, 2, 0, 0, 0, 3, 4 }));
+
+            Console.Write("isHollow of    {1,1,1,1,0,0,0,0,0,2,1,2,18}     is"); Console.WriteLine(" = {0}"
+                          , TestSet29.isHollow(new int[] { 1, 1, 1, 1, 0, 0, 0, 0, 0, 2, 1, 2, 18 }));
+
+
+            Console.Write("isHollow of    {1, 2, 0, 0, 3, 4}    is"); Console.WriteLine(" = {0}"
+              , TestSet29.isHollow(new int[] { 1, 2, 0, 0, 3, 4 }));
+
+            Console.Write("isHollow of   {1,2,0,0,0,3,4,5}   is"); Console.WriteLine(" = {0}"
+             , TestSet29.isHollow(new int[] { 1, 2, 0, 0, 0, 3, 4, 5 }));
+
+            Console.Write("isHollow of    {3,8,3,0,0,0,3,3}    is"); Console.WriteLine(" = {0}"
+             , TestSet29.isHollow(new int[] { 3, 8, 3, 0, 0, 0, 3, 3 }));
+
+            Console.Write("isHollow of    {1,2,0,0,0,3,4,0}    is"); Console.WriteLine(" = {0}"
+             , TestSet29.isHollow(new int[] { 1, 2, 0, 0, 0, 3, 4, 0 }));
+            */
+            Console.Write("isHollow of    {0,1,2,0,0,0,3,4}    is"); Console.WriteLine(" = {0}"
+            , TestSet29.isHollow(new int[] { 0, 1, 2, 0, 0, 0, 3, 4 }));
+
+            Console.Write("isHollow of    {0,0,0}    is"); Console.WriteLine(" = {0}"
+            , TestSet29.isHollow(new int[] {  0, 0, 0 }));
+
+            Console.WriteLine("========================");
+
+        }
     }
 }

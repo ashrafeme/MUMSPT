@@ -170,5 +170,68 @@ namespace MUMSPT.TestSet29
         }
 
 
+        /// <summary>
+        ///  An array is said to be hollow if it 
+        /// contains 3 or more zeros in the 
+        /// middle that are preceded and 
+        /// followed by the same number of 
+        /// non-zero elements. Furthermore, 
+        /// all the zeroes in the array must 
+        /// be in the middle of the array.
+       ///  Write a function named isHollow that accepts an integer array and returns 1 if it is a hollow array, otherwise it returns 0. 
+        /// </summary>
+        /// <param name="a"></param>
+        /// <returns></returns>
+        public static int isHollow(int[] a)
+        {
+            int isHollow = 1;
+
+            int precdingzero = 0, midzero=0, followingzero = 0,current=0;
+            bool isNotMiddle = false;
+            for (int i = 0; i < a.Length; i++)
+            {
+                if(a[i] != 0 && midzero == 0) {
+                    precdingzero++;
+                }
+            }
+
+            /*
+            for (int i = 0; i < a.Length && isHollow==1; i++)
+            {
+                current = a[i];
+                //
+                if (current != 0)
+                {
+                    if (precdingzero != 0 && midzero != 0)
+                    {
+                        followingzero++;
+                    }
+                    else if (midzero == 0 && followingzero == 0)
+                    {
+                        precdingzero++;
+                    }
+                }
+                else
+                {
+                    if (precdingzero != 0 && followingzero != 0)
+                        isHollow = 0;
+                    else if (precdingzero == 0 && followingzero == 0)
+                    {
+                        isNotMiddle = true;
+                        midzero++;
+                    }
+                    else if (precdingzero != 0 && followingzero == 0 && isNotMiddle == false)
+                    {
+                        midzero++;
+                    }
+                }
+            }
+            */
+            if (precdingzero != followingzero || midzero < 3)
+                isHollow = 0;
+
+            return isHollow;
+        }
+
     }
 }
