@@ -92,6 +92,8 @@
     <Compile Include="TestSet2\TestSet2Test.cs" />
     <Compile Include="TestSet30\TestSet30.cs" />
     <Compile Include="TestSet30\TestSet30Test.cs" />
+    <Compile Include="TestSet31\TestSet31.cs" />
+    <Compile Include="TestSet31\TestSet31Test.cs" />
     <Compile Include="TestSet3\TestSet3.cs" />
     <Compile Include="TestSet3\TestSet3Test.cs" />
     <Compile Include="TestSet4\TestSet4.cs" />
