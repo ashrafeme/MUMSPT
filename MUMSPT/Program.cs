@@ -199,10 +199,10 @@ namespace MUMSPT
             /*
             TestSet30.TestSet30Test.sumIsPower();
             TestSet30.TestSet30Test.isHollow();
+            TestSet30.TestSet30Test.isBean913();
+*/
             
 
-            */
-            TestSet30.TestSet30Test.isBean913();
 
             Console.ReadLine();
         }
