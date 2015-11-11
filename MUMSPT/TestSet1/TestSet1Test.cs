@@ -22,6 +22,17 @@ namespace MUMSPT.TestSet1
             Console.WriteLine("========================");
            
         }
+        
+        public static void Fibb()
+        {
+            Console.Write("array {2, 1, 1} is"); Console.WriteLine(" = {0}"
+                 , TestSet1.nonRecusiveFib(9));
+            string vva = TestSet1.RecusiveFib(9).ToString();
+            
+            Console.Write("array {2, 1, 1} is"); Console.WriteLine(" = {0}"
+                , vva);
+
+        }
 
         public static void isMadhavArray()
         {

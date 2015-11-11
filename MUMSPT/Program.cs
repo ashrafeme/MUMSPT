@@ -10,6 +10,7 @@ namespace MUMSPT
     {
         static void Main(string[] args)
         {
+            TestSet1.TestSet1Test.Fibb();
             /*
             TestSet1.TestSet1Test.primeCount();
 
@@ -201,10 +202,11 @@ namespace MUMSPT
             TestSet30.TestSet30Test.isHollow();
             TestSet30.TestSet30Test.isBean913();
 */
-
+/*
             TestSet31.TestSet31Test.isDual();
             TestSet31.TestSet31Test.isAllPossibilities();
             TestSet31.TestSet31Test.isLayered();
+            */
            // TestSet29.TestSet29Test.isAllPossibilities();
 
             Console.ReadLine();

@@ -6,8 +6,40 @@ using System.Threading.Tasks;
 
 namespace MUMSPT.TestSet1
 {
+  
+
   public static  class TestSet1
     {
+        public static int RecusiveFib(int n)
+        {
+            if (n < 2)
+            {
+                Console.Write("0,1,1");
+                return 1;
+            }
+            else
+            {
+                int fi = RecusiveFib(n - 1) + RecusiveFib(n - 2);
+                Console.Write("," + fi);
+                return fi;
+            }
+        }
+
+        public static string nonRecusiveFib(int n)
+        {
+            string toReturn = "";
+            int a = 0, b = 1, c = a + b;
+            toReturn += string.Format("{0},{1},{2}", a, b, c);
+            for (int i = 2; i <= n; i++)
+            {
+                a = b;
+                b = c;
+                c = a + b;
+                toReturn += "," + c;
+            }
+            return toReturn;
+        }
+
         /// <summary>
         /// Write a function named primeCount with signature
         /// int primeCount(int start, int end);
